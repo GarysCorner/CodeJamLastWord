@@ -3,6 +3,7 @@
 //Date:		2016-06-13
 //Desc:		This program is designed to solve Google Code Jam "The Last Word"  The problem turned out to be a little too easy, yawn
 //Problem:	https://code.google.com/codejam/contest/4304486/dashboard
+//Results:	A-small-practice.in:8.852597ms		A-large-practice.in:42.055548ms
 
 package main
 
