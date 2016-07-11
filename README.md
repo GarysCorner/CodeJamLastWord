@@ -1,12 +1,6 @@
 #Problem A. The Last Word
 ##From https://code.google.com/codejam/contest/4304486/dashboard
-This contest is open for practice. You can try every problem as many times as you like, though we won't keep track of which problems you solve. Read the Quick-Start Guide to get started.
-Small input
-9 points	
-Solve A-small
-Large input
-11 points	
-Solve A-large
+
 Problem
 
 On the game show The Last Word, the host begins a round by showing the contestant a string S of uppercase English letters. The contestant has a whiteboard which is initially blank. The host will then present the contestant with the letters of S, one by one, in the order in which they appear in S. When the host presents the first letter, the contestant writes it on the whiteboard; this counts as the first word in the game (even though it is only one letter long). After that, each time the host presents a letter, the contestant must write it at the beginning or the end of the word on the whiteboard before the host moves on to the next letter (or to the end of the game, if there are no more letters).
@@ -31,45 +25,40 @@ For each test case, output one line containing Case #x: y, where x is the test c
 
 Limits
 
+```
 1 ≤ T ≤ 100.
+```
 Small dataset
 
+```
 1 ≤ length of S ≤ 15.
+```
 Large dataset
 
+```
 1 ≤ length of S ≤ 1000.
+```
 Sample
 
-###Input
+
+###Input 
+```
 7
-
 CAB
-
 JAM
-
 CODE
-
 ABAAB
-
 CABCBBABC
-
 ABCABCABC
-
 ZXCASDQWE
-
+```
 ###Output
+```
 Case #1: CAB
-
 Case #2: MJA
-
 Case #3: OCDE
-
 Case #4: BBAAA
-
 Case #5: CCCABBBAB
-
 Case #6: CCCBAABAB
-
 Case #7: ZXCASDQWE
-
-
+```
